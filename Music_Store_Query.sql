@@ -1,4 +1,3 @@
-/*	Question Set 1 - Easy */
 
 /* Q1: Who is the senior most employee based on job title? */
 
@@ -44,10 +43,6 @@ GROUP BY customer.customer_id
 ORDER BY total_spending DESC
 LIMIT 1;
 
-
-
-
-/* Question Set 2 - Moderate */
 
 /* Q1: Write query to return the email, first name, last name, & Genre of all Rock Music listeners. 
 Return your list ordered alphabetically by email starting with A. */
@@ -103,9 +98,6 @@ WHERE miliseconds > (
 ORDER BY miliseconds DESC;
 
 
-
-
-/* Question Set 3 - Advance */
 
 /* Q1: Find how much amount spent by each customer on artists? Write a query to return customer name, artist name and total spent */
 
@@ -223,8 +215,3 @@ JOIN country_max_spending ms
 ON cc.billing_country = ms.billing_country
 WHERE cc.total_spending = ms.max_spending
 ORDER BY 1;
-
-
-/* source: www.youtube.com/@RishabhMishraOfficial */
-
-/* Thank You :) */
