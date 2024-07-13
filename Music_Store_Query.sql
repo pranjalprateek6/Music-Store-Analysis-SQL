@@ -15,14 +15,14 @@ GROUP BY billing_country
 ORDER BY c DESC
 
 
-/* Q3: What are top 3 values of total invoice? */
+/* Q3: What are the top 3 values of the total invoice? */
 
 SELECT total 
 FROM invoice
 ORDER BY total DESC
 
 
-/* Q4: Which city has the best customers? We would like to throw a promotional Music Festival in the city we made the most money. 
+/* Q4: Which city has the best customers? We would like to throw a promotional Music Festival in the city where we made the most money. 
 Write a query that returns one city that has the highest sum of invoice totals. 
 Return both the city name & sum of all invoice totals */
 
@@ -44,10 +44,8 @@ ORDER BY total_spending DESC
 LIMIT 1;
 
 
-/* Q1: Write query to return the email, first name, last name, & Genre of all Rock Music listeners. 
+/* Q1: Write a query to return the email, first name, last name, & Genre of all Rock Music listeners. 
 Return your list ordered alphabetically by email starting with A. */
-
-/*Method 1 */
 
 SELECT DISTINCT email,first_name, last_name
 FROM customer
